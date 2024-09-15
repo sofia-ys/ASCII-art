@@ -43,7 +43,7 @@ grayscale = np.array([217.56944444, 218.82291667, 219.89236111, 220.19444444,
 
 #start writing your code here!
 
-image = pg.image.load("images\\WIN_20240611_14_48_01_Pro.jpg") #importing the image as a pygame surface
+image = pg.image.load("grail.jpg") #importing the image as a pygame surface
 
 imageRed = pg.surfarray.pixels_red(image) #getting the red rgb value as an array for each pixel in the image
 imageGreen = pg.surfarray.pixels_green(image) 
